@@ -1,0 +1,64 @@
+# CREATE POSTS
+# SAILORS WEEKLY
+mutation create {
+  createPost(input: {
+    blogID: "5d3d6e6c-737f-41d1-9945-2a21a2a9d06b", 
+    title: "- The importance of stretching"
+    }) {
+    id
+    title
+    blogID
+  }
+}
+
+mutation create {
+  createPost(input: {
+    blogID: "5d3d6e6c-737f-41d1-9945-2a21a2a9d06b", 
+    title: "Meet the america’s cup sailors"}) {
+    id
+    title
+    blogID
+  }
+}
+
+#RUNNERS WORLD
+mutation create {
+  createPost(input: {
+    blogID: "77114572-cc21-4c5b-af5f-71d9a4a67ffc", 
+    title: "Top 3 hamstring stretches"}) {
+    id
+    title
+    blogID
+  }
+}
+
+mutation create {
+  createPost(input: {
+    blogID: "77114572-cc21-4c5b-af5f-71d9a4a67ffc", 
+    title: "Couch to 5k"}) {
+    id
+    title
+    blogID
+  }
+}
+
+#Yoga Inspo
+mutation create {
+  createPost(input: {
+    blogID: "364187f3-d15c-4bae-8365-e50c4e30768c", 
+    title: "Yoga is about more than stretching"}) {
+    id
+    title
+    blogID
+  }
+}
+
+mutation create {
+  createPost(input: {
+    blogID: "364187f3-d15c-4bae-8365-e50c4e30768c", 
+    title: "Couch to Daily Bikram"}) {
+    id
+    title
+    blogID
+  }
+}
