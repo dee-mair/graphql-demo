@@ -1,0 +1,63 @@
+# BLOGS
+{
+  "data": {
+    "listBlogs": {
+      "items": [
+        {
+          "id": "5d3d6e6c-737f-41d1-9945-2a21a2a9d06b",
+          "name": "Sailors Weekly"
+        },
+        {
+          "id": "77114572-cc21-4c5b-af5f-71d9a4a67ffc",
+          "name": "Running World"
+        },
+        {
+          "id": "364187f3-d15c-4bae-8365-e50c4e30768c",
+          "name": "Yoga Inspo"
+        }
+      ]
+    }
+  }
+}
+
+
+
+# POSTS
+{
+  "data": {
+    "listPosts": {
+      "items": [
+        {
+          "id": "f33b5115-98ac-46a2-8ad6-ac69f1bf7ce1",
+          "title": "Yoga is about more than stretching",
+          "blogID": "364187f3-d15c-4bae-8365-e50c4e30768c"
+        },
+        {
+          "id": "863b8eeb-1cae-4d68-bae6-ade1ec88fec2",
+          "title": "Couch to 5k",
+          "blogID": "77114572-cc21-4c5b-af5f-71d9a4a67ffc"
+        },
+        {
+          "id": "302957f3-5a56-46f7-baaf-707916c45cf5",
+          "title": "Meet the america’s cup sailors",
+          "blogID": "5d3d6e6c-737f-41d1-9945-2a21a2a9d06b"
+        },
+        {
+          "id": "5c46b01b-8a70-443c-ba27-e095162e620e",
+          "title": "Top 3 hamstring stretches",
+          "blogID": "77114572-cc21-4c5b-af5f-71d9a4a67ffc"
+        },
+        {
+          "id": "198bf3d1-0733-400f-a277-e4c10d222417",
+          "title": "Couch to Daily Bikram",
+          "blogID": "364187f3-d15c-4bae-8365-e50c4e30768c"
+        },
+        {
+          "id": "9c686fe4-0fa9-4dd3-b5db-ccc8f2ed48b2",
+          "title": "- The importance of stretching",
+          "blogID": "5d3d6e6c-737f-41d1-9945-2a21a2a9d06b"
+        }
+      ]
+    }
+  }
+}
