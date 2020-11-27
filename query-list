@@ -61,3 +61,56 @@
     }
   }
 }
+
+
+#NESTED QUERY
+{
+  "data": {
+    "listBlogs": {
+      "items": [
+        {
+          "id": "5d3d6e6c-737f-41d1-9945-2a21a2a9d06b",
+          "name": "Sailors Weekly",
+          "posts": {
+            "items": [
+              {
+                "title": "Meet the america’s cup sailors"
+              },
+              {
+                "title": "- The importance of stretching"
+              }
+            ]
+          }
+        },
+        {
+          "id": "77114572-cc21-4c5b-af5f-71d9a4a67ffc",
+          "name": "Running World",
+          "posts": {
+            "items": [
+              {
+                "title": "Couch to 5k"
+              },
+              {
+                "title": "Top 3 hamstring stretches"
+              }
+            ]
+          }
+        },
+        {
+          "id": "364187f3-d15c-4bae-8365-e50c4e30768c",
+          "name": "Yoga Inspo",
+          "posts": {
+            "items": [
+              {
+                "title": "Yoga is about more than stretching"
+              },
+              {
+                "title": "Couch to Daily Bikram"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
