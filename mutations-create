@@ -1,3 +1,35 @@
+# CREATE BLOGS
+# SAILORS WEEKLY
+mutation create {
+  createBlog(input: {
+      name: "Sailors weekly"
+    }) {
+    id
+    name
+  }
+}
+
+#RUNNERS WORLD
+mutation create {
+  createBlog(input: {
+      name: "Runners World"
+    }) {
+    id
+    name
+  }
+}
+
+#YOGA INSPO
+mutation create {
+  createBlog(input: {
+      name: "Yoga Inspo"
+    }) {
+    id
+    name
+  }
+}
+
+
 # CREATE POSTS
 # SAILORS WEEKLY
 mutation create {
